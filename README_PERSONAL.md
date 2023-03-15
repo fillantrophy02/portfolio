@@ -1,6 +1,6 @@
 Things I should cover:
 
-Home page -
+Home page - done, maybe change the font? and the buttons
 Name
 Profile pic
 About
@@ -22,4 +22,7 @@ Linkedin
 
 TODO
 https://www.youtube.com/watch?v=o1chMISeTC0&ab_channel=LaithAcademy 28:52
-continue w trying to setup the portfolio
+adjust the colors of the skills hashtag
+
+Reference:
+https://thawalk.github.io/portfolio/#projects

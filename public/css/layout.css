@@ -36,6 +36,13 @@ header {
    
    text-align: center;
    overflow: hidden;
+   background-image: url("../images/sky.jpg")
+}
+
+header .profile-pic-home {
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
 }
 
 /* vertically center banner section */
@@ -204,7 +211,7 @@ ul#nav li.current a { color: #fe6928; }
    position: relative;
    width: 120px;
    height: 120px;
-   border-radius: 100%;
+   border-radius: 50%;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -249,6 +256,7 @@ ul#nav li.current a { color: #fe6928; }
    border-bottom: 3px solid #0762f9;
    padding-bottom: 6px;
 }
+
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
@@ -293,7 +301,7 @@ ul#nav li.current a { color: #fe6928; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #333;
+   border: 2px solid #333e5c;
   	height: 42px;
   	border-radius: 0px;
 }
@@ -315,8 +323,7 @@ ul#nav li.current a { color: #fe6928; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
-   line-height: 42px;
+  	height: 40px;
    border-radius: 0px;
 }
 /*
@@ -413,16 +420,130 @@ ul#nav li.current a { color: #fe6928; }
 
 #portfolio {
    background: #ebeeee;
-   padding-top: 90px;
+   padding-top: 60px;
    padding-bottom: 60px;
 }
+
+
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-   text-align: center;
-   margin-bottom: 48px;
-   color: #95A3A3;
+}
+#portfolio h1 span {
+   border-bottom: 3px solid #0762f9;
+   padding-bottom: 6px;
+}
+ 
+#portfolio .skills {
+   font: "2rem";
+   color: #000000;
+   margin-bottom:20px;
+   font-weight:600;
+}
+
+#portfolio .python {
+   color: #222E50;
+}
+
+#portfolio .java {
+   color: #007990;
+}
+
+#portfolio .html {
+   color: #8B8000;
+}
+
+#portfolio .automation {
+   color: #023020;
+}
+
+#portfolio .ML {
+   color: #301934;
+}
+
+#portfolio .javascript {
+   color: #8B4000;
+}
+
+#portfolio .image {
+   width: 100%;
+   height: 260px;
+   object-fit: cover;
+   min-width: 100%;
+   left: 50%;
+   position: relative;
+   transform: translateX(-50%);
+}
+
+#portfolio h1 {
+   font: 22px/34px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: left;
+   margin-top: 12px;
+   margin-bottom: 6px;
+   color: #000524;
+}
+
+#portfolio .box {
+   margin-top: 16x;
+}
+
+#portfolio .button {
+   font: 16px/30px 'opensans-bold', sans-serif;
+   display: inline-block;
+	text-decoration: none;
+   letter-spacing: 0;
+   color: #fff;
+	padding: 12px 20px;
+	margin-bottom: 18px;
+   border: none;
+   cursor: pointer;
+   height: auto;
+
+   -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+
+   -moz-border-radius: 0px;
+   -webkit-border-radius: 0px;
+   -khtml-border-radius: 0px;
+   border-radius: 0px;
+}
+
+
+#portfolio .paper {
+   background: #1abc9c !important;
+}
+
+#portfolio .video {
+   background: #850000 !important;
+}
+
+#portfolio .play {
+   background: #008081 !important;
+}
+
+#portfolio .button-text {
+   margin-left: 12px;
+   margin-right: 12px;
+   font: 16px/30px 'opensans-bold', sans-serif;
+}
+
+#portfolio .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+   color: #6E7881;
+   margin-bottom: 6px;
+}
+
+#portfolio .card-body {
+   margin-top: 18px;
+   text-align: justify;
+   margin-bottom: 12px;
 }
 
 /* Portfolio Content */

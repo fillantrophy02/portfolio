@@ -6,7 +6,8 @@ class Header extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const project = this.props.data.project;
+    const profilepic = "images/" + this.props.data.image;
+    const linkedin = this.props.data.linkedin;
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
@@ -30,34 +31,42 @@ class Header extends Component {
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#about">
                 About
               </a>
-            </li>
+            </li> */}
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                Skills
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                Projects
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </nav>
 
+        
         <div className="row banner">
           <div className="banner-text">
+            <Fade bottom>
+              <img
+                  className="profile-pic-home"
+                  src={profilepic}
+                  alt="Vy Dinh Profile Pic"
+                />
+            </Fade>
             <Fade bottom>
               <h1 className="responsive-headline">{name}</h1>
             </Fade>
@@ -67,8 +76,8 @@ class Header extends Component {
             <hr />
             <Fade bottom duration={2000}>
               <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                <a href={linkedin} className="button btn linkedin-btn">
+                  <i className="fa fa-book"></i>Linkedin
                 </a>
                 <a href={github} className="button btn github-btn">
                   <i className="fa fa-github"></i>Github
