@@ -301,7 +301,7 @@ ul#nav li.current a { color: #fe6928; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-   border: 2px solid #333e5c;
+   border: 1px solid #333e5c;
   	height: 42px;
   	border-radius: 0px;
 }

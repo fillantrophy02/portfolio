@@ -40,7 +40,7 @@ class Portfolio extends Component {
                       title="Test Automation intern"
                       dateRange="May 2022 - Sep 2022"
                       bodyText="Razer Synapse is a cloud-based hardware configuration tool for Razer devices. For every new product launched, testers repeat the same set of tests to ensure that the new product is working in sync with Razer Synapse. Using a combination of browser and desktop automation tools, I wrote test cases for mouse, keyboard, and other devices to automate this testing process. I also used Jenkins to implement the CI/CD pipeline for the deployment and execution of the automated test cases."
-                      skillTags="python,robot,elenium,jenkins"/>
+                      skillTags="python,robot,selenium,jenkins"/>
                 </Grid>
                 <Grid item xs={6}>
                     <ProjectCard
