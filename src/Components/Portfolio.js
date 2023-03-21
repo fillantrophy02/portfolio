@@ -4,6 +4,7 @@ import Fade from "react-reveal";
 import ProjectCard from "./ProjectCard"
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
+import Slide from "react-reveal";
 
 let id = 0;
 class Portfolio extends Component {
@@ -26,15 +27,18 @@ class Portfolio extends Component {
     return (
       <section id="portfolio">
         
-        <Fade left duration={1000} distance="40px">
-          <div className="row">
-              <h1>
-                <span>Internships/Projects</span>
-              </h1>
+        <Slide left duration={1300}>
+
+            <div className="row skill">
+                <div className="three columns header-col">
+                  <h1>
+                    <span>Internships/Projects</span>
+                  </h1>
+                </div>
 
             <Container sx={{paddingTop: 6}}>
               <Grid container spacing={3}>
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <ProjectCard
                       imgSrc="razer.jpg"
                       title="Test Automation intern"
@@ -42,7 +46,7 @@ class Portfolio extends Component {
                       bodyText="Razer Synapse is a cloud-based hardware configuration tool for Razer devices. For every new product launched, testers repeat the same set of tests to ensure that the new product is working in sync with Razer Synapse. Using a combination of browser and desktop automation tools, I wrote test cases for mouse, keyboard, and other devices to automate this testing process. I also used Jenkins to implement the CI/CD pipeline for the deployment and execution of the automated test cases."
                       skillTags="python,robot,selenium,jenkins"/>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <ProjectCard
                       imgSrc="hadtech.png"
                       title="Software Engineer Intern"
@@ -51,16 +55,16 @@ class Portfolio extends Component {
                       skillTags="python,javascript,nestjs,django,mongodb"/>
                 </Grid>
                 
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <ProjectCard
                       imgSrc="astar.png"
                       title="Research Intern"
                       dateRange="Apr 2019 - Jun 2020"
-                      bodyText="As part of a deep learning project, I worked in a team of 3 to develop an end-to-end software for analyzing heart blockage severity in fluoroscopy scans. My main responsibilities involved preprocessing the dataset provided by the National Heart Center consisting of 102 videos, training and tuning the stage one image classification model, and writing the code for geometrically processing vessel width and blockage. I also contributed to another project that involving building defenses against adversarial attacks."
+                      bodyText="As part of a deep learning project, I worked in a team of 3 to develop an end-to-end software for analyzing heart blockage severity in fluoroscopy scans. My main responsibilities involved preprocessing the dataset provided by National Heart Center consisting of 102 videos, training and tuning the stage one image classification model, and writing the code for geometrically processing vessel width and blockage. I also contributed to another project that involving building defenses against adversarial attacks."
                       skillTags="python,keras,sklearn"
                       paperUrl="https://arxiv.org/pdf/2101.12505.pdf"/>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <ProjectCard
                       imgSrc="coldbrew.jpg"
                       title="Project ColdBrew"
@@ -69,7 +73,7 @@ class Portfolio extends Component {
                       skillTags="python,gensim"
                       videoUrl="https://youtu.be/UimYhsvEW6U"/>
                 </Grid>
-                <Grid item xs={6}>
+                <Grid item xs={12} md={6}>
                     <ProjectCard
                       imgSrc="microbform.jpg"
                       title="Microbform Game"
@@ -81,7 +85,7 @@ class Portfolio extends Component {
             </Grid>
             </Container>
           </div>
-        </Fade>
+        </Slide>
       </section>
     );
   }
