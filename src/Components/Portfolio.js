@@ -4,7 +4,7 @@ import Fade from "react-reveal";
 import ProjectCard from "./ProjectCard"
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Slide from "react-reveal";
+import Slide from "@mui/material/Slide";
 
 let id = 0;
 class Portfolio extends Component {
@@ -26,8 +26,8 @@ class Portfolio extends Component {
 
     return (
       <section id="portfolio">
-        
-        <Slide left duration={1300}>
+{/*         
+        <Slide direction="left"> */}
 
             <div className="row">
                 <div className="title">
@@ -35,7 +35,6 @@ class Portfolio extends Component {
                     <span>Internships/Projects</span>
                   </h1>
                 </div>
-
             <Container sx={{paddingTop: 6}}>
               <Grid container spacing={3}>
                 <Grid item xs={12} md={6}>
@@ -85,7 +84,7 @@ class Portfolio extends Component {
             </Grid>
             </Container>
           </div>
-        </Slide>
+        {/* </Slide> */}
       </section>
     );
   }
