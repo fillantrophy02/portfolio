@@ -29,8 +29,8 @@ class Portfolio extends Component {
         
         <Slide left duration={1300}>
 
-            <div className="row skill">
-                <div className="three columns header-col">
+            <div className="row">
+                <div className="title">
                   <h1>
                     <span>Internships/Projects</span>
                   </h1>

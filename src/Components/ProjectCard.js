@@ -12,7 +12,6 @@ import CardMedia from '@mui/material/CardMedia';
 
 class ProjectCard extends Component {
     render() { 
-        console.log(this.props);
         const imgPath = "images/" + this.props.imgSrc;
         const urlExists = (this.props.paperUrl || this.props.videoUrl || this.props.playUrl);
         const skills = typeof this.props.skillTags === "string" 

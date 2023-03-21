@@ -477,6 +477,10 @@ ul#nav li.current a { color: #fe6928; }
    transform: translateX(-50%);
 }
 
+#portfolio .title {
+   margin-left: 12px;
+}
+
 #portfolio h1 {
    font: 22px/34px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
