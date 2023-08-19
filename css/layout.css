@@ -437,7 +437,7 @@ ul#nav li.current a { color: #fe6928; }
  
 #portfolio .skills {
    font: "2rem";
-   color: #000000;
+   color: #808080 ;
    margin-bottom:20px;
    font-weight:600;
    overflow-wrap: break-word;
@@ -513,10 +513,10 @@ ul#nav li.current a { color: #fe6928; }
 	-ms-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 
-   -moz-border-radius: 0px;
-   -webkit-border-radius: 0px;
-   -khtml-border-radius: 0px;
-   border-radius: 0px;
+   -moz-border-radius: 9px;
+   -webkit-border-radius: 9px;
+   -khtml-border-radius: 9px;
+   border-radius: 9px;
 }
 
 
@@ -540,7 +540,7 @@ ul#nav li.current a { color: #fe6928; }
 #portfolio .button-text {
    margin-left: 12px;
    margin-right: 12px;
-   font: 16px/30px 'opensans-bold', sans-serif;
+   font: 15px/24px 'opensans-bold', sans-serif;
 }
 
 #portfolio .date {
