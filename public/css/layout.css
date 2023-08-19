@@ -520,7 +520,7 @@ ul#nav li.current a { color: #fe6928; }
 }
 
 
-#portfolio .paper {
+#portfolio .button .paper {
    background: #1abc9c !important;
 }
 
@@ -530,6 +530,11 @@ ul#nav li.current a { color: #fe6928; }
 
 #portfolio .play {
    background: #008081 !important;
+}
+
+
+#portfolio .github {
+   background: #000000 !important;
 }
 
 #portfolio .button-text {

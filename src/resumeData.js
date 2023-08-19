@@ -49,39 +49,39 @@ export const data = {
         },
         {
           "name":"Javascript",
-          "level":"70%"
+          "level":"80%"
         },
         {
-          "name":"Java",
-          "level":"50%"
-        },
-        {
-          "name":"HTML",
-          "level":"70%"
-        },
-        {
-          "name":"React",
-          "level":"50%"
+          "name":"React, HTML & CSS",
+          "level":"80%"
         },
         {
           "name":"Selenium",
           "level":"80%"
         },
         {
+          "name":"SQL & NoSQL",
+          "level":"70%"
+        },
+        {
+          "name":"Java",
+          "level":"70%"
+        },
+        {
           "name":"Robot Framework",
-          "level":"80%"
+          "level":"70%"
+        },
+        {
+          "name":"Jest",
+          "level":"50%"
         },
         {
           "name":"Django",
           "level":"40%"
         },
         {
-          "name":"MongoDB",
-          "level":"70%"
-        },
-        {
           "name":"Keras",
-          "level":"60%"
+          "level":"40%"
         }
       ]
     },

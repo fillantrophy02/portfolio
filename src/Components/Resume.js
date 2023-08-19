@@ -23,7 +23,7 @@ class Resume extends Component {
             {education.degree} <span>&bull;</span>
             <em className="date">{education.graduated}</em>
           </p>
-          <p>{education.description}</p>
+          <p>As vice president of 3DC/Google Developer Student Clubs, my most recent activity was teaching a series of <text style={{fontWeight: "bold"}}>DS & Algo+</text> workshops (<a href="https://gdsc.community.dev/events/details/developer-student-clubs-singapore-university-of-technology-and-design-presents-ddw-clinic-oop-tower-of-hanoi/">OOP & Tower of Hanoi</a>, <a href="https://gdsc.community.dev/events/details/developer-student-clubs-singapore-university-of-technology-and-design-presents-ddw-clinic-pandas/">Pandas</a>, <a href="https://gdsc.community.dev/events/details/developer-student-clubs-singapore-university-of-technology-and-design-presents-ddw-clinic-state-machine/">State Machine</a>).</p>
         </div>
       );
     });
