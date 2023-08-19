@@ -70,7 +70,7 @@ class Portfolio extends Component {
                       title="Research Intern"
                       dateRange="Apr 2019 - Jun 2020"
                       bodyText="As part of a deep learning project, I worked in a team of 3 to develop an end-to-end software for analyzing heart blockage severity in fluoroscopy scans. My main responsibilities involved preprocessing the dataset provided by National Heart Center consisting of 102 videos, training and tuning the stage one image classification model, and writing the code for geometrically processing vessel width and blockage. I also contributed to another project that involving building defenses against adversarial attacks."
-                      skillTags="python,keras,sklearn"
+                      skillTags="python,keras,sklearn,tensorflow"
                       paperUrl="https://arxiv.org/pdf/2101.12505.pdf"/>
                 </Grid>
                 <Grid item xs={12} md={6}>
