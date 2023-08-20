@@ -44,7 +44,7 @@ class Portfolio extends Component {
                       dateRange="Jun 2023 - Aug 2023"
                       bodyText="As part of 50.003: Elements of Software Construction module, I worked in a team of 8 to develop a form management system for the Office of Student Life. With the end goal goal of providing a seamless form submission and endorsement flow in focus, our system was designed from scratch over a period of 2 months, following the 5 stages of the software development life cycle (SDLC). The final tech stack consisted of React frontend, Express backend, and AWS Amplify deployment. My contributions included drawing the use case diagram, implementing an online fillable form with custom logic validations using React, and writing system and unit tests using Jest and Selenium."
                       skillTags="javascript,react,jest,selenium"
-                      videoUrl="https://drive.google.com/file/d/1sQpJY8KudrkNaZZT0YPnvjGOF1c7M81x/view/"
+                      videoUrl="https://drive.google.com/file/d/1sQpJY8KudrkNaZZT0YPnvjGOF1c7M81x/view"
                       githubUrl="https://github.com/esctmp/osl-fifth-row-app" />
                 </Grid>
                 <Grid item xs={12} md={6}>
