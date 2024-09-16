@@ -39,6 +39,22 @@ class Portfolio extends Component {
               <Grid container spacing={3} alignItems="stretch">
               <Grid item xs={12} md={6}>
                     <ProjectCard
+                      imgSrc="gic.png"
+                      title="Software Engineer Intern"
+                      dateRange="May 2024 - Aug 2024"
+                      bodyText="As an intern at GIC, I helped provision automation capabilities that streamlined the app deployment process, reducing deployment times from weeks to days. I also contributed to the development of an API template codebase for the creating APIs suites that standardized engineering practices across the organization. Additionally, I played a vital role in instrumenting observability for two products, designing dashboards that offered valuable insights into performance and operational efficiency."
+                      skillTags="python,fastapi,datadog" />
+                </Grid>
+                <Grid item xs={12} md={6}>
+                    <ProjectCard
+                      imgSrc="sap.png"
+                      title="AI Full Stack Intern"
+                      dateRange="Sep 2023 - Dec 2023"
+                      bodyText="During my internship, I collaborated with a team of 7 engineers to refactor APIs within the Document Information Extractor, an AI-powered service on the SAP BTP. My work improved the performance and maintainability of core functionalities. I also ensured comprehensive test coverage by writing and executing unit and integration tests. Leveraging tools like Pytest, SQLAlchemy, and Flask-RESTX, I contributed to enhancing the system’s stability, used by over 15,000 customers worldwide."
+                      skillTags="python,flask" />
+                </Grid>
+                <Grid item xs={12} md={6}>
+                    <ProjectCard
                       imgSrc="oslfifthrow.png"
                       title="Project OSL-Fifth Row App"
                       dateRange="Jun 2023 - Aug 2023"

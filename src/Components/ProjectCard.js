@@ -69,7 +69,7 @@ class ProjectCard extends Component {
                                 })}
                             </Grid>
                         </Box>
-                        : null}
+                        : <Box height="60px"></Box>}
                 </Container>
 
                 <Container ml={2} mr={2} fontSize="2.5rem" sx={{ position: "absolute", bottom: 0, fontWeight: "normal" }}>
