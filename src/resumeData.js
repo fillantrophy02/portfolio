@@ -1,7 +1,7 @@
 export const data = {
     "main":{
       "name":"Vy Dinh",
-      "description":"Hello! I am a CS undergraduate at Singapore University of Technology and Design (SUTD)",
+      "description":"Hello! I am a CS graduate at Singapore University of Technology and Design (SUTD)",
       "image":"profilepic.jpg",
       "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
       "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
@@ -35,9 +35,9 @@ export const data = {
       "education":[
         {
           "school":"Singapore University of Technology and Design (SUTD)",
-          "degree":"Computer Science and Design",
+          "degree":"Bachelor of Engineering (Computer Science & Design)",
           "graduated":"May 2025",
-          "description":"As the vice president of 3DC/Google Developer Student Club, my most recent activity was teaching a series of data structure and algorithm workshops. "
+          "description":"Bachelor of Engineering, Computer Science & Design (Honours with Highest Distinction). Former vice president of 3DC/Google Developer Student Club."
         }
       ],
       "work":[
@@ -46,6 +46,10 @@ export const data = {
         {
           "name":"Python",
           "level":"90%"
+        },
+        {
+          "name":"FastAPI",
+          "level":"80%"
         },
         {
           "name":"Javascript",
@@ -60,29 +64,17 @@ export const data = {
           "level":"80%"
         },
         {
+          "name":"Pytorch",
+          "level":"70%"
+        },
+        {
           "name":"SQL & NoSQL",
           "level":"70%"
         },
         {
           "name":"Java",
-          "level":"70%"
+          "level":"60%"
         },
-        {
-          "name":"Robot Framework",
-          "level":"70%"
-        },
-        {
-          "name":"Jest",
-          "level":"50%"
-        },
-        {
-          "name":"Django",
-          "level":"40%"
-        },
-        {
-          "name":"Keras",
-          "level":"40%"
-        }
       ]
     },
     "portfolio":{

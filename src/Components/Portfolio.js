@@ -38,6 +38,16 @@ class Portfolio extends Component {
             <Container sx={{paddingTop: 6}}>
               <Grid container spacing={3} alignItems="stretch">
               <Grid item xs={12} md={6}>
+                  <ProjectCard
+                    imgSrc="mirror.png"
+                    title="Mirror: AI Matchmaking App"
+                    dateRange="Aug 2024 - May 2025"
+                    bodyText="As part of the 6-member capstone team building Mirror, a personality-driven matchmaking platform, I led the development of Saa, an AI chatbot that dynamically constructed user profiles via conversation spanning 11 personality categories. I engineered and iterated the onboarding workflow across pre-pilot and pilot phases, contributing to a 84% chatbot engagement rate for 138 users. On average, users spent approximately 15 minutes engaging with Saa, exchanging 30 messages per session. I also designed and executed an end-to-end Selenium testing suite that safeguarded both the integrity of chatbot conversations and the app’s interface behavior."
+                    skillTags="python,langgraph,gpt,selenium"
+                    videoUrl="https://capstoneshowcase.sutd.edu.sg/project/proj-e14-the-capybaras_mirror/#:~:text=term%20relationships.-,Product%20Video,-Current%20User%20Journey"
+                  />
+                </Grid>
+                <Grid item xs={12} md={6}>
                     <ProjectCard
                       imgSrc="gic.png"
                       title="Software Engineer Intern"
